@@ -1,0 +1,46 @@
+{
+    "name": "node-backend",
+    "version": "1.0.0",
+    "description": "NodeJS + MongoDB API for User Management, Authentication and Registration",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "scripts": {
+        "start": "nodemon ./server.js",
+        "dev": "env-cmd node ./server.js",
+        "start:dev": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "@sendgrid/mail": "^7.4.2",
+        "aws-sdk": "^2.841.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "cron": "^1.8.2",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-jwt": "^6.0.0",
+        "generate-password": "^1.6.0",
+        "google-auth-library": "^7.3.0",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.1",
+        "mongodb": "^2.2.33",
+        "mongoose": "^5.9.21",
+        "multer": "^1.4.2",
+        "multer-s3": "^2.9.0",
+        "path": "^0.12.7",
+        "request": "^2.88.2",
+        "rootpath": "^0.1.2",
+        "sharp": "^0.27.1",
+        "underscore": "^1.11.0",
+        "url": "^0.11.0",
+        "uuid": "^8.3.1",
+        "validator": "^13.5.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4",
+        "webpack": "^4.43.0"
+    }
+}
